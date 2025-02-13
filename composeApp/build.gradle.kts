@@ -43,6 +43,9 @@ kotlin {
             implementation(compose.components.uiToolingPreview)
             implementation(libs.androidx.lifecycle.viewmodel)
             implementation(libs.androidx.lifecycle.runtime.compose)
+            implementation(libs.kotlinx.serialization.json)
+            implementation(libs.decompose)
+            implementation(libs.decompose.extensions.compose)
         }
     }
 }
